@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://publiciart.com.br/sitemap.xml
