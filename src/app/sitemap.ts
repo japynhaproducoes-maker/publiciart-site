@@ -3,6 +3,8 @@ import { NAV } from "@/lib/site";
 
 const BASE = "https://publiciart.com.br";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   return NAV.map((item) => ({
     url: `${BASE}${item.href === "/" ? "" : item.href}`,
